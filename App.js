@@ -91,6 +91,8 @@ const MySwitchNavigator = createSwitchNavigator({ // create switch navigator // 
   Login: { screen: LoginScreen},
   SignUp: { screen: SignUpScreen},
   Dashboard: {screen: MyDrawerNavigator }
+},{
+  initialRouteName: "SignUp"
 })
 
 
